@@ -1,4 +1,7 @@
 '''
+https://www.nowcoder.com/practice/c451a3fd84b64cb19485dad758a55ebe?
+tpId=13&tqId=23251&ru=/exam/oj/ta&qru=/ta/coding-interviews/question
+-ranking&sourceUrl=%2Fexam%2Foj%2Fta%3Fpage%3D1%26tpId%3D13%26type%3D13
 思路：
 这道题目还有一个条件是数组是升序序列，在方法一中没有用到。这个条件有什么用？既然数组是有序的，那我们肯定
 知道和找到一定程度就不找了，我们为什么要从最小的两个数开始相加呢？我们可以用二分法的思路，从中间开始找。

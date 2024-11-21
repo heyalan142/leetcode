@@ -1,3 +1,12 @@
+'''
+https://www.nowcoder.com/practice/8b3b95850edb4115918ecebdf1b4d222?
+tpId=13&tqId=23250&ru=/exam/oj/ta&qru=/ta/coding-interviews/question
+-ranking&sourceUrl=%2Fexam%2Foj%2Fta%3Fpage%3D1%26tpId%3D13%26type%3D13
+
+递归求高度，不满足条件高度为-1
+'''
+
+
 class TreeNode:
     def __init__(self, x):
         self.val = x

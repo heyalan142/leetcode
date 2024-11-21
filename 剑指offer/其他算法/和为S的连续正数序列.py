@@ -1,4 +1,7 @@
 '''
+https://www.nowcoder.com/practice/c451a3fd84b64cb19485dad758a55ebe?
+tpId=13&tqId=23251&ru=/exam/oj/ta&qru=/ta/coding-interviews/question
+-ranking&sourceUrl=%2Fexam%2Foj%2Fta%3Fpage%3D1%26tpId%3D13%26type%3D13
 思路：
 从某一个数字开始的连续序列和等于目标数如果有，只能有一个，于是我们可以用这个性质来使区间滑动。
 两个指针l、r指向区间首和区间尾，计算区间内部的序列和，如果这个和刚好等于目标数，说明以该区间首开始的序列找到了，

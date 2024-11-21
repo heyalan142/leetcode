@@ -1,3 +1,10 @@
+'''
+https://www.nowcoder.com/practice/96bd6684e04a44eb80e6a68efc0ec6c5?
+tpId=13&tqId=23260&ru=/exam/oj/ta&qru=/ta/coding-interviews/question
+-ranking&sourceUrl=%2Fexam%2Foj%2Fta%3Fpage%3D1%26tpId%3D13%26type%3D13
+'''
+
+
 class Solution:
     def InversePairs(self, nums: list[int]) -> int:
         if len(nums) <= 0:

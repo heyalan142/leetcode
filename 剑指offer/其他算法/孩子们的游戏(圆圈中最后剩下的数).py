@@ -1,3 +1,13 @@
+'''
+https://www.nowcoder.com/practice/f78a359491e64a50bce2d89cff857eb6?
+tpId=13&tqId=23265&ru=/exam/oj/ta&qru=/ta/coding-interviews/question
+-ranking&sourceUrl=%2Fexam%2Foj%2Fta%3Fpage%3D1%26tpId%3D13%26type%3D13
+思路：
+将小朋友装入一个头尾衔接的链表。 遇到满足条件的删除节点即可。
+
+'''
+
+
 class ListNode:
     def __init__(self, val=0, next=None):
         self.val = val

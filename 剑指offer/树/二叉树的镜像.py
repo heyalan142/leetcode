@@ -1,3 +1,11 @@
+'''
+https://www.nowcoder.com/practice/a9d0ecbacef9410ca97463e4a5c83be7?
+tpId=13&tqId=1374963&ru=/exam/oj/ta&qru=/ta/coding-interviews/question-ranking
+&sourceUrl=%2Fexam%2Foj%2Fta%3Fpage%3D1%26tpId%3D13%26type%3D13
+递归
+'''
+
+
 class TreeNode:
     def __init__(self, x):
         self.val = x
@@ -14,8 +22,6 @@ class Solution:
         pRoot.left = rightMirror
         pRoot.right = leftMirror
         return pRoot
-
-
 
 
 if __name__ == '__main__':

@@ -1,4 +1,7 @@
 '''
+https://www.nowcoder.com/practice/ef1f53ef31ca408cada5093c8780f44b?
+tpId=13&tqId=1374930&ru=/exam/oj/ta&qru=/ta/coding-interviews/question
+-ranking&sourceUrl=%2Fexam%2Foj%2Fta%3Fpage%3D1%26tpId%3D13%26type%3D13
 # 具体做法
 step1：遍历数组，统计奇数出现的次数，即找到了偶数开始的位置。
 step2：准备一个和原数组同样长的新数组承接输出，准备双指针，x指向奇数开始的位置，y指向偶数开始的位置。

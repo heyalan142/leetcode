@@ -1,3 +1,14 @@
+'''
+https://www.nowcoder.com/practice/cf7e25aa97c04cc1a68c8f040e71fb84?
+tpId=13&tqId=23455&ru=/exam/oj/ta&qru=/ta/coding-interviews/question
+-ranking&sourceUrl=%2Fexam%2Foj%2Fta%3Fpage%3D1%26tpId%3D13%26type%3D13
+
+思路：
+迭代法。每个子树序列化为{-中-{-中-左-右-}-{-中-左-右-}-}的形式
+反序列化的时候解析成{中，左子树，右子树}
+'''
+
+
 class TreeNode:
     def __init__(self, x):
         self.val = x

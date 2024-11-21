@@ -1,7 +1,11 @@
+'''
+https://www.nowcoder.com/practice/c6c7742f5ba7442aada113136ddea0c3?
+tpId=13&tqId=23255&ru=/exam/oj/ta&qru=/ta/coding-interviews/question
+-ranking&sourceUrl=%2Fexam%2Foj%2Fta%3Fpage%3D1%26tpId%3D13%26type%3D13
+'''
 
 
 class Solution:
-    # 递归法：dp[i]为跳上n级的台阶总共有多少种跳法
     def Fibonacci(self, n: int) -> int:
         if n < 2:
             return 1
@@ -12,7 +16,6 @@ class Solution:
         for i in range(3, n + 1):
             dp[i] = dp[i - 1] + dp[i - 2]
         return dp[n]
-
 
 
 if __name__ == '__main__':
